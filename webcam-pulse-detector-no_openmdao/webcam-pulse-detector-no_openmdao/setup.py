@@ -11,7 +11,8 @@ APP = ['get_pulse.py']
 DATA_FILES = ['cascades/haarcascade_frontalface_alt.xml']
 OPTIONS = {'argv_emulation': True}
 
-setup(
+setup
+(
     app=APP,
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
